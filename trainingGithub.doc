@@ -1,0 +1,19 @@
+ngày 11/01/2020
+source control/code là gì : có lưu các phần code để chạy được, dành cho các công lớn
+git: là phần mên
+repo: chứ dự án
+commit: lưu các thời điêm thay đổi
+brand: tạo các nhánh; mỗi lần sửa thì chọn 1 brand mới
+
+github: lớn hơn git. code chung
+
+các lệnh cơ bản
+ git init: tạo  ra 1 repo trong máy
+ git clone: lấy trên mạng vê
+ git pull: đồng bộ trên mạng về máy
+
+ git add
+ git commit
+ git p
+
+ git log/ git status
