@@ -17,5 +17,12 @@ các lệnh cơ bản
  git p
 
  git log/ git status
-thay đổi lần 2 trên mạng sử dụng chrome để test
-thay đổi lần 3 sử dung Atom để update data lên 123
+
+các câu lệnh nâng cao để tham gia dự án Open source
+
+git brand
+git checkout
+git merge
+
+got rebase
+git cherry-pich
