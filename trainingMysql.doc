@@ -1,1 +1,11 @@
-hello.this is my sql. thank you for loggin data
+$dbhost = 'localhost';
+   $dbuser = 'root';
+   $dbpass = "";
+   $conn = mysqli_connect($dbhost, $dbuser, $dbpass,'dataesp');
+THIS IS LOGIN DATA TO MYSQL
+
+WHEN LOGIN DATA BY PHP
+<?php ?>
+
+REQUET DATA LOGIN OK OR NOT OK
+if(! $conn ){}else{}
