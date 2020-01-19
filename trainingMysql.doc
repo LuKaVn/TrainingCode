@@ -1,7 +1,8 @@
-$dbhost = 'localhost';
-   $dbuser = 'root';
-   $dbpass = "";
-   $conn = mysqli_connect($dbhost, $dbuser, $dbpass,'dataesp');
+$server = "localhost";
+$username = "cafe9899";
+$password = "8@zuT*wVXtyz17,";
+$dbname = "cafe9899_UVmeter";
+   $conn = mysqli_connect($server, $username, $password,$dbname);
 THIS IS LOGIN DATA TO MYSQL
 
 WHEN LOGIN DATA BY PHP
