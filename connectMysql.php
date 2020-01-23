@@ -1,15 +1,23 @@
 <?php
-$host='112.78.2.253';
-$user='cafe9899';
-$pass='8@zuT*wVXtyz17,';
 $servername = "localhost";
 $username = "cafe9899";
 $password = "8@zuT*wVXtyz17,";
 $dbname = "cafe9899_UVmeter";
-$con=mysqli_connect($servername,$username,$password,$dbname);
-if($con){
+$conn=mysqli_connect($servername,$username,$password,$dbname);
+if($conn){
   echo "login ok";
+  //CREATE DATABASE lukadatabse;
 }else{
   echo "login not 3.1 ok";
 }
+
+if ($conn->query('CREATE TABLE data(
+ID int(6), name VARCHAR(30)
+)') == TRUE) {
+      echo "tao bang OK";
+      //echo "Thêm dữ liệu thành công <br>";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+$conn->close();
 ?>
