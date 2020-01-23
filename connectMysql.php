@@ -1,4 +1,5 @@
-<?php
+
+<?php/*
 $servername = "localhost";
 $username = "cafe9899";
 $password = "8@zuT*wVXtyz17,";
@@ -20,4 +21,15 @@ ID int(6), name VARCHAR(30)
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
 $conn->close();
+*/
+$server = 'localhost';
+$user="cafe9899";
+$password="8@zuT*wVXtyz17";
+$nameDB="cafe9899_UVmeter";
+$conn=mysqli_connect($server,$user,$password,$nameDB);
+if(conn==1){
+  echo("login OK");
+}else{
+  echo("login not ok");
+}
 ?>

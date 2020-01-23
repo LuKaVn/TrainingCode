@@ -1,5 +1,9 @@
 TAI KHOAN MAT BAO: MB1488779
 
+login FIZILA
+  host: 112.78.2.253
+  user:cafe9899
+  pass: xxxxxx
 
 $server = "localhost";
 $username = "cafe9899";
