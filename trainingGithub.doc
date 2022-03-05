@@ -26,6 +26,7 @@ git cherry-pich
 // hôm nay copy clone đó nhưg lại không thành
 
 05/03/2021
+note: PHAI CHUYEN QUA "cd _name_folder"
 # what brand: git status
 # PUSH TO REPO 
     git add _file_name
@@ -38,5 +39,6 @@ git cherry-pich
 # BRAND 
     git clone  _link -b _brand  
     git checkout _brand
+    
 
 
