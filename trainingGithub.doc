@@ -1,10 +1,7 @@
-ngày 11/01/2020
-source control/code là gì : có lưu các phần code để chạy được, dành cho các công lớn
 git: là phần mên
-repo: chứ dự án
+repo: chứa dự án
 commit: lưu các thời điêm thay đổi
 brand: tạo các nhánh; mỗi lần sửa thì chọn 1 brand mới
-
 github: lớn hơn git. code chung
 
 các lệnh cơ bản
@@ -28,5 +25,18 @@ got rebase
 git cherry-pich
 // hôm nay copy clone đó nhưg lại không thành
 
+05/03/2021
+# what brand: git status
+# PUSH TO REPO 
+    git add _file_name
+    git commit -m "_comment"
+    git push origin _brand
+# PULL FROM REPO 
+    git pull origin _brand 
+# FIX ERROR NOT SYNC DATA BETWEEN REPO AND LOCA
+    git push -f origin _brand
+# BRAND 
+    git clone  _link -b _brand  
+    git checkout _brand
 
-sss
+
