@@ -1,0 +1,6 @@
+#05/03/2022
+# cai dat Expo trong may
+# vao CMD
+    expo init _name_app
+    cd _name_app
+    npm start
