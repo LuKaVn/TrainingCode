@@ -1,0 +1,44 @@
+git: là phần mên
+repo: chứa dự án
+commit: lưu các thời điêm thay đổi
+brand: tạo các nhánh; mỗi lần sửa thì chọn 1 brand mới
+github: lớn hơn git. code chung
+
+các lệnh cơ bản
+ git init: tạo  ra 1 repo trong máy
+ git clone: lấy trên mạng vê
+ git pull: đồng bộ trên mạng về máy
+
+ git add
+ git commit
+ git p
+
+ git log/ git status
+
+các câu lệnh nâng cao để tham gia dự án Open source
+
+git brand
+git checkout
+git merge
+
+got rebase
+git cherry-pich
+// hôm nay copy clone đó nhưg lại không thành
+
+05/03/2021
+note: PHAI CHUYEN QUA "cd _name_folder"
+# what brand: git status
+# PUSH TO REPO 
+    git add _file_name
+    git commit -m "_comment"
+    git push origin _brand
+# PULL FROM REPO 
+    git pull origin _brand 
+# FIX ERROR NOT SYNC DATA BETWEEN REPO AND LOCA
+    git push -f origin _brand
+# BRAND 
+    git clone  _link -b _brand  
+    git checkout _brand
+    
+
+
