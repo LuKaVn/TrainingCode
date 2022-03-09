@@ -1,4 +1,4 @@
-git: là phần mên
+﻿git: là phần mên
 repo: chứa dự án
 commit: lưu các thời điêm thay đổi
 brand: tạo các nhánh; mỗi lần sửa thì chọn 1 brand mới
@@ -39,6 +39,13 @@ note: PHAI CHUYEN QUA "cd _name_folder"
 # BRAND 
     git clone  _link -b _brand  
     git checkout _brand
+# git delete name
+	git rm “file_name”
+    git commit -m "_comment"
+    git push origin _brand
+# git rename
+	Git mv _name_old _name_new
+	
     
 
 
