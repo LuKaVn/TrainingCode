@@ -1,0 +1,21 @@
+thu vien modbus TCP: https://pypi.org/project/pyModbusTCP/
+https://pymodbustcp.readthedocs.io/en/stable/package/module_utils.html
+
+MODBUS CLIENT
+read_holding_registers(reg_addr, reg_nb=1)
+	Parameters:	
+		reg_addr (int) – register address (0 to 65535)
+		reg_nb (int) – number of registers to read (1 to 125)
+	Returns:	
+		registers list or None if fail
+
+	Return type:	
+		list of int or None
+
+UTILS
+chuyen data bang cach ghep du lieu: 
+	pyModbusTCP.utils.word_list_to_long(val_list, big_endian=True, long_long=False)
+	long_long: 64 bit if is True, Default is 32 bit
+
+- Test : cho 1 list 8 so , xuat ra du lieu 32 va 64
+
